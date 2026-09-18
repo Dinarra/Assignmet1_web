@@ -1,0 +1,122 @@
+body {
+    background: linear-gradient(135deg, #fff5f5 0%, #ffccd5 100%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+.navbar {
+    background-color: #8b0000;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff7675;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #ff7675;
+}
+
+.content {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 20px rgba(139, 0, 0, 0.15);
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    text-align: center;
+    color: #8b0000;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+    color: #d63031;
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+h3 {
+    color: #8b0000;
+    border-bottom: 2px solid #ffccd5;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+.tribute-img {
+    display: block;
+    max-width: 250px;
+    width: 100%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(139,0,0,0.2);
+    border: 4px solid #ffffff;
+}
+
+.events-list, .inventions-list {
+    line-height: 1.8;
+    padding-left: 20px;
+}
+
+.events-list li {
+    margin-bottom: 10px;
+}
+
+.inventions-list li {
+    margin-bottom: 8px;
+    list-style-type: square;
+}
+
+.tribute-link {
+    color: #d63031;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.tribute-link:hover {
+    text-decoration: underline;
+}
+
+.btn-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #d63031;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 25px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #8b0000;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - CSS Table & Form</title>
+    <link rel="stylesheet" href="task4_styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <a href="index.html">Task 1</a>
+        <a href="task2.html">Task 2</a>
+        <a href="exercise1/index.html">Task 3</a>
+        <a href="task4.html" class="active">Task 4</a>
+        <a href="task5.html">Task 5</a>
+    </nav>
+
+    <div class="container">
+
+        <h2 id="table-heading">Student Grade Report</h2>
+
+        <table class="grades-table">
+            <thead>
+                <tr>
+                    <th>Student Name</th>
+                    <th>Subject</th>
+                    <th>Grade</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td rowspan="2">Dinara</td>
+                    <td>Software Engineering</td>
+                    <td>95</td>
+                </tr>
+                <tr>
+                    <td>Java Programming</td>
+                    <td>90</td>
+                </tr>
+                <tr class="highlight-row">
+                    <td>Alex Smith</td>
+                    <td>Web Design</td>
+                    <td>98 (Top)</td>
+                </tr>
+                <tr>
+                    <td>John Doe</td>
+                    <td>Database Systems</td>
+                    <td>88</td>
+                </tr>
+                <tr>
+                    <td colspan="2"><strong>Class Average Grade</strong></td>
+                    <td><strong>92.7</strong></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr class="divider">
+
+        <h2>Student Feedback Form</h2>
+
+        <div class="form-container">
+            <form action="#" method="post">
+                
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="role">Your Role:</label>
+                    <select id="role" name="role">
+                        <option value="student">Student</option>
+                        <option value="teacher">Teacher</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label>Did you enjoy Assignment #1?</label>
+                    <div class="radio-group">
+                        <label><input type="radio" name="feedback" value="yes" checked> Yes</label>
+                        <label><input type="radio" name="feedback" value="no"> No</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comments">Comments & Suggestions:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Write your comments here..."></textarea>
+                </div>
+
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+
+            </form>
+        </div>
+
+    </div>
+
+</body>
+</html>

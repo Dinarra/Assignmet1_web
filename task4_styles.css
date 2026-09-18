@@ -1,0 +1,146 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fff5f5;
+    margin: 0;
+    padding: 0;
+    color: #2c3e50;
+}
+
+.navbar {
+    background-color: #8b0000;
+    padding: 15px;
+    text-align: center;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ff7675;
+}
+
+.navbar a.active {
+    border-bottom: 2px solid #ff7675;
+}
+
+.container {
+    max-width: 850px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(139, 0, 0, 0.1);
+}
+
+#table-heading {
+    text-align: center;
+    color: #8b0000;
+    font-size: 26px;
+    margin-bottom: 20px;
+    border-bottom: 3px solid #d63031;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+}
+
+.grades-table th, .grades-table td {
+    border: 1px solid #ffccd5;
+    padding: 12px;
+    text-align: center;
+}
+
+.grades-table th {
+    background-color: #8b0000;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.grades-table tbody tr:nth-child(even) {
+    background-color: #fff0f3;
+}
+
+.highlight-row {
+    background-color: #ffccd5 !important;
+    font-weight: bold;
+    color: #8b0000;
+}
+
+.divider {
+    border: 0;
+    height: 1px;
+    background: #ffccd5;
+    margin: 40px 0;
+}
+
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff0f3;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #ffccd5;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.form-group {
+    margin-bottom: 18px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+    color: #8b0000;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffccd5;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #d63031;
+    outline: none;
+}
+
+.radio-group label {
+    display: inline;
+    font-weight: normal;
+    margin-right: 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    background-color: #d63031;
+    color: #ffffff;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #8b0000;
+}
