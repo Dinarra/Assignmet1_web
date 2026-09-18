@@ -6,7 +6,7 @@ This repository contains the completed **Assignment 1** project, demonstrating b
 
 ## 🚀 Live Demo
 You can view the published website here:
-👉 **[GitHub Pages Live Link](https://<Dinarra>.github.io/<Assignmet1_web>/)**
+👉 **[GitHub Pages Live Link](https://Dinarra.github.io/Assignmet1_web/index.html)**
 
 ---
 
